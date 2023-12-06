@@ -238,7 +238,7 @@ footer {
   align-content: space-between;
   position: absolute; }
 
-.project .swiper-slide-active:hover .swiper-slide-content {
+.swiper-projects .swiper-slide-active:hover .swiper-slide-content {
   display: flex; }
 
 .contact {
