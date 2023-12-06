@@ -1,0 +1,24 @@
+@keyframes slide_down {
+    from {
+        translate: 0 -100vw;
+    }
+    to {
+        translate: 0;
+    }
+}
+@keyframes slide_left {
+    from {
+        translate: 75vw 0;
+    }
+    to {
+        translate: 0;
+    }
+}
+@keyframes slide_right {
+    from {
+        translate: 0;
+    }
+    to {
+        translate: 74vw 0;
+    }
+}

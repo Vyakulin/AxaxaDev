@@ -1,0 +1,130 @@
+ul, h1, h2, h3, p, a, li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-decoration: none; }
+
+.h1 {
+  color: #E0E0E0;
+  font-size: 32px;
+  font-weight: 700; }
+
+.h2 {
+  color: #E0E0E0;
+  font-size: 28px;
+  font-weight: 600; }
+
+.h3 {
+  color: #E0E0E0;
+  font-size: 24px;
+  font-weight: 500; }
+
+.p {
+  color: #E0E0E0;
+  font-size: 20px;
+  font-weight: 400; }
+
+.blinks {
+  color: #E0E0E0;
+  font-size: 20px;
+  font-weight: 700; }
+
+.sblinks {
+  color: #E0E0E0;
+  font-size: 20px;
+  font-weight: 600; }
+
+.button1 {
+  display: flex;
+  padding: 15px 30px;
+  justify-content: center;
+  align-items: center;
+  background-color: #E5D045;
+  border-radius: 20px;
+  color: #1E1E1E;
+  cursor: pointer;
+  gap: 10px; }
+
+.button1:hover {
+  background-color: #FFEE80; }
+
+.button1:active, .button2:active {
+  scale: 0.95; }
+
+.button2 {
+  box-sizing: border-box;
+  display: flex;
+  padding: 15px 30px;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border-radius: 20px;
+  color: #E5D045;
+  border: 3px solid #E5D045;
+  cursor: pointer;
+  gap: 10px; }
+
+.button2:hover {
+  color: #FFEE80;
+  border-color: #FFEE80; }
+
+.link1 {
+  color: #E0E0E0; }
+
+.link1:hover {
+  color: #E5D045; }
+
+.link2 {
+  color: #E5D045; }
+
+.link2:hover {
+  color: #FFEE80; }
+
+.text-input {
+  display: flex;
+  width: 350px;
+  padding-bottom: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #999999; }
+
+.text-input::placeholder {
+  font-family: 'Montserrat', sans-serif;
+  color: #999999; }
+
+.text-input:hover, .text-input:hover::placeholder {
+  border-color: #E0E0E0;
+  color: #E0E0E0; }
+
+.text-input:focus {
+  outline: none;
+  border-color: #E5D045;
+  color: #E5D045; }
+
+.multiline-input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  background-color: #999999;
+  color: #1E1E1E;
+  border-radius: 20px; }
+
+.multiline-input::placeholder {
+  font-family: 'Montserrat', sans-serif;
+  color: #666666; }
+
+.multiline-input:hover, .multiline-input:hover::placeholder {
+  background-color: #E0E0E0;
+  color: #1E1E1E; }
+
+.multiline-input:focus {
+  color: #1E1E1E;
+  background-color: #E5D045;
+  outline: none; }
+
+/*# sourceMappingURL=styles.css.map */

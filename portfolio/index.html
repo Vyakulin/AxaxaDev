@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="stylesheet" href="styles/swiper-bundle.min.css">
+    <link rel="stylesheet" href="/styles/animations.css">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/adaptive.css">
+    <link rel="shortcut icon" href="assets/logo.png">
+    <title>AxaxaDeveloper</title>
+</head>
+<body>
+<div class="all">
+    <header>
+        <div class="h_content">
+            <div class="h_logo">
+                <a href="/">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="63" viewBox="0 0 50 63" fill="none" id="h_logo">
+                    <path d="M0 22C0 19.2386 2.23857 17 5 17L45 17C47.7614 17 50 19.2386 50 22V37.3267C50 42.1847 48.9524 46.4673 46.8571 50.1747C44.8095 53.8821 41.9286 56.7798 38.2143 58.8679C34.5 60.956 30.0952 62 25 62C19.9524 62 15.5476 60.956 11.7857 58.8679C8.07143 56.7798 5.16667 53.8821 3.07143 50.1747C1.02381 46.4673 0 42.1847 0 37.3267V22ZM14.5 27.3551C11.7386 27.3551 9.5 29.5937 9.5 32.3551V36.8153C9.5 39.7983 10.1191 42.3764 11.3571 44.5497C12.6429 46.7656 14.4524 48.4702 16.7857 49.6634C19.119 50.8992 21.8571 51.517 25 51.517C28.1905 51.517 30.9286 50.8992 33.2143 49.6634C35.5476 48.4702 37.3333 46.7656 38.5714 44.5497C39.8571 42.3764 40.5 39.7983 40.5 36.8153V32.3551C40.5 29.5937 38.2614 27.3551 35.5 27.3551H14.5Z" fill="#E0E0E0"/>
+                    <path d="M19 6C19 2.68629 16.3137 0 13 0C9.68629 0 7 2.68629 7 6C7 9.31371 9.68629 12 13 12C16.3137 12 19 9.31371 19 6Z" fill="#E0E0E0"/>
+                    <path d="M43 6C43 2.68629 40.3137 0 37 0C33.6863 0 31 2.68629 31 6C31 9.31371 33.6863 12 37 12C40.3137 12 43 9.31371 43 6Z" fill="#E0E0E0"/>
+                    </svg>
+                </a>
+            </div>
+            <ul class="links">
+                <li id="about"><a href="#about_anchor" class="blinks link1">Обо мне</a></li>
+                <li id="projects"><a href="#projects_anchor" class="blinks link1">Мои работы</a></li>
+                <li id="reviews"><a href="#reviews_anchor" class="blinks link1">Отзывы</a></li>
+                <li id="contact"><a href="#contact_anchor" class="blinks button2">Связаться</a></li>
+            </ul>
+            <div class="burger">
+                <input type="checkbox" id="burger_check">
+                <label for="burger_check" class="burger_button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="50" viewBox="0 0 60 50" fill="none" id="burger_button1">
+                        <path d="M0 5C0 2.23858 2.23858 0 5 0H55C57.7614 0 60 2.23858 60 5C60 7.76142 57.7614 10 55 10H5C2.23858 10 0 7.76142 0 5Z" fill="#E0E0E0"/>
+                        <path d="M0 25C0 22.2386 2.23858 20 5 20H55C57.7614 20 60 22.2386 60 25C60 27.7614 57.7614 30 55 30H5C2.23858 30 0 27.7614 0 25Z" fill="#E0E0E0"/>
+                        <path d="M0 45C0 42.2386 2.23858 40 5 40H55C57.7614 40 60 42.2386 60 45C60 47.7614 57.7614 50 55 50H5C2.23858 50 0 47.7614 0 45Z" fill="#E0E0E0"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="46" height="47" viewBox="0 0 46 47" fill="none" id="burger_button2">
+                        <path d="M1.78673 2.53554C3.73935 0.58292 6.90518 0.58292 8.8578 2.53554L44.2131 37.8909C46.1658 39.8435 46.1658 43.0093 44.2131 44.9619C42.2605 46.9146 39.0947 46.9146 37.1421 44.9619L1.78673 9.60661C-0.16589 7.65399 -0.165889 4.48816 1.78673 2.53554Z" fill="#E0E0E0"/>
+                        <path d="M1.78673 44.5355C-0.16589 42.5829 -0.16589 39.4171 1.78673 37.4645L37.1421 2.10912C39.0947 0.156497 42.2605 0.156498 44.2131 2.10912C46.1658 4.06174 46.1658 7.22756 44.2131 9.18019L8.8578 44.5355C6.90518 46.4881 3.73935 46.4881 1.78673 44.5355Z" fill="#E0E0E0"/>
+                    </svg>
+                </label>
+            </div>
+        </div>
+    </header>
+    <ul class="burger_menu burger_close">
+        <li><a href="#about_anchor" class="blinks link1">Обо мне</a></li>
+        <li><a href="#projects_anchor" class="blinks link1">Мои работы</a></li>
+        <li><a href="#reviews_anchor" class="blinks link1">Отзывы</a></li>
+    </ul>
+    <main class="main">
+        <div class="about">
+            <a id="about_anchor"></a>
+            <div class="hello">
+                Привет
+                <h1 class="h1">Я ux-ui дизайнер и верстальщик</h1>
+            </div>
+            <div class="description">
+                <div class="description1">
+                    <p class="h3">Меня зовут Даниил, и я сделаю Вам наилучший дизайн для вашего сайта, и чтобы не быть голословным мы можете посмотреть <a class="link2" href="#projects">мои работы</a>. А ещё я могу не только сделать дизайн, но и сразу сверстать его! Заказывая вёрстку сразу у меня, Вы получаете более быструю и качественную работу, нежели, если бы заказывали у другого “профессионала”.</p>
+                    <p class="h3">Выбирайте с умом, но знайте я всегда слежу :) И в конце концов, если вам не понравиться работа другого человека (а так и будет), то вы всегда можете <a class="link2" href="#contact">вернуться ко мне</a>.</p>
+                    <div class="skills">
+                        <h1 class="h1">Мои скилы:</h1>
+                        <div class="skills_elements">
+                            <div class="skills_elements_row">
+                                <div class="skill">
+                                    <img src="assets/figma.png"><h2 class="h2">Figma</h2>
+                                </div>
+                                <div class="skill">
+                                    <img src="assets/html.png"><h2 class="h2">HTML</h2>
+                                </div>
+                            </div>
+                            <div class="skills_elements_row">
+                                <div class="skill">
+                                    <img src="assets/css.png"><h2 class="h2">CSS</h2>
+                                </div>
+                                <div class="skill">
+                                    <img src="assets/js.png"><h2 class="h2">JavaScript</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="h3">И они будут только улучшаться и дополняться</h3>
+                    </div>
+                </div>
+                <img src="assets/photo.png" id="description_photo">
+            </div>
+        </div>
+        <div class="projects">
+            <a id="projects_anchor"></a>
+            <h1 class="h1">Мои проекты</h1>
+            <div class="swiper swiper-projects">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide project">
+                        <img src="assets/SoudlyStudio.png">
+                        <div class="swiper-slide-content">
+                            <h2 class="h2">SoudlyStudio</h2>
+                            <h3 class="h3">Лендинг для веб-студии</h3>
+                            <a class="sblinks button2" href="https://www.behance.net/gallery/185278653/SoudlyStudio-Landing">Посмотреть на Behance</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide project">
+                        <img src="assets/silver.png">
+                        <div class="swiper-slide-content">
+                            <h2 class="h2">Silver</h2>
+                            <h3 class="h3">Лендинг для онлайн-курсов</h3>
+                            <a class="sblinks button2" href="https://www.behance.net/gallery/185388247/Silver-Landing">Посмотреть на Behance</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide project">
+                        <img src="assets/warthog.png">
+                        <div class="swiper-slide-content">
+                            <h2 class="h2">Warthog</h2>
+                            <h3 class="h3">Лендинг для магазина</h3>
+                            <a class="sblinks button2" href="https://www.behance.net/gallery/185279285/Grocery-store-landing">Посмотреть на Behance</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide project">
+                        <img src="assets/vizitka.png">
+                        <div class="swiper-slide-content">
+                            <h2 class="h2">Сайт-визитка</h2>
+                            <h3 class="h3">Сайт портфолио</h3>
+                            <a class="sblinks button2" href="https://www.behance.net/gallery/184437085/Portfolio-Website">Посмотреть на Behance</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide project">
+                        <img src="assets/moodbakery.png">
+                        <div class="swiper-slide-content">
+                            <h2 class="h2">MoodBakery</h2>
+                            <h3 class="h3">Сайт для магазина</h3>
+                            <a class="sblinks button2" href="https://www.behance.net/gallery/184438365/Mood-Bakery">Посмотреть на Behance</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <div class="reviews">
+            <a id="reviews_anchor"></a>
+            <h1 class="h1">Отзывы</h1>
+            <div class="swiper swiper-reviews">
+                <div class="swiper-wrapper swiper-wrapper-reviews">
+                    <div class="swiper-slide review">
+                        <div class="reviewer">
+                            <h3 class="h3">Иван иванов</h3>
+                            <div class="grade">
+                                <div class="grade_empty"><div class="grade_value"></div></div>
+                            </div>
+                        </div>
+                        <p class="p">Крутой чел, хороший дизайнер, и вообще он самый лучший. Сверстал как бог! Заказывайте все у него и только у него, сделал очень быстро</p>
+                    </div>
+                    <div class="swiper-slide review">
+                        <div class="reviewer">
+                            <h3 class="h3">Иван иванов</h3>
+                            <div class="grade">
+                                <div class="grade_empty"><div class="grade_value"></div></div>
+                            </div>
+                        </div>
+                        <p class="p">Крутой чел, хороший дизайнер, и вообще он самый лучший. Сверстал как бог! Заказывайте все у него и только у него, сделал очень быстро</p>
+                    </div>
+                    <div class="swiper-slide review">
+                        <div class="reviewer">
+                            <h3 class="h3">Иван иванов</h3>
+                            <div class="grade">
+                                <div class="grade_empty"><div class="grade_value"></div></div>
+                            </div>
+                        </div>
+                        <p class="p">Крутой чел, хороший дизайнер, и вообще он самый лучший. Сверстал как бог! Заказывайте все у него и только у него, сделал очень быстро</p>
+                    </div>
+                    <div class="swiper-slide review">
+                        <div class="reviewer">
+                            <h3 class="h3">Иван иванов</h3>
+                            <div class="grade">
+                                <div class="grade_empty"><div class="grade_value"></div></div>
+                            </div>
+                        </div>
+                        <p class="p">Крутой чел, хороший дизайнер, и вообще он самый лучший. Сверстал как бог! Заказывайте все у него и только у него, сделал очень быстро</p>
+                    </div>
+                    <div class="swiper-slide review">
+                        <div class="reviewer">
+                            <h3 class="h3">Иван иванов</h3>
+                            <div class="grade">
+                                <div class="grade_empty"><div class="grade_value"></div></div>
+                            </div>
+                        </div>
+                        <p class="p">Крутой чел, хороший дизайнер, и вообще он самый лучший. Сверстал как бог! Заказывайте все у него и только у него, сделал очень быстро</p>
+                    </div>
+                </div>
+            </div>
+            <a class="blinks button1" id="popup-button" onclick="Show()">Оставить свой</a>
+        </div>
+        <div class="contact">
+            <a id="contact_anchor"></a>
+            <h1 class="h1">Связь со мной</h1>
+            <div class="forms">
+                <div class="yours">
+                    <h3 class="h3">Вы можете оставить свои контакты:</h3>
+                    <form>
+                        <input type="email" placeholder="Эл. почта" class="p text-input" name="contact-email">
+                        <input type="text" placeholder="Имя" class="p text-input" name="contact-text">
+                    </form>
+                    <a class="blinks button1" name="contact-button">Отправить</a>
+                </div>
+                <div class="ours">
+                    <ul class="contacts">
+                        <li><a href="mailto:axaxadev@gmail.com" target="_blank" class="blinks button1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="33" height="32" viewBox="0 0 33 32" fill="none">
+                                <g clip-path="url(#clip0_68_940)">
+                                  <path d="M16.5 0C12.2579 0.00458811 8.19095 1.69177 5.19136 4.69136C2.19177 7.69095 0.504588 11.7579 0.5 16C0.333333 28.7653 15.3787 36.572 25.7 29.0893C25.9163 28.9388 26.1007 28.747 26.2427 28.5249C26.3846 28.3028 26.4813 28.0549 26.5271 27.7953C26.5729 27.5358 26.5669 27.2698 26.5096 27.0125C26.4522 26.7553 26.3446 26.5119 26.1928 26.2964C26.0411 26.0809 25.8483 25.8975 25.6255 25.7568C25.4027 25.6161 25.1542 25.5208 24.8944 25.4764C24.6346 25.432 24.3686 25.4394 24.1117 25.4981C23.8548 25.5568 23.612 25.6658 23.3973 25.8187C15.7267 31.4427 4.31733 25.528 4.5 16C5.12933 0.0933329 27.872 0.0959994 28.5 16V18C28.5 18.5304 28.2893 19.0391 27.9142 19.4142C27.5391 19.7893 27.0304 20 26.5 20C25.9696 20 25.4609 19.7893 25.0858 19.4142C24.7107 19.0391 24.5 18.5304 24.5 18V16C24.164 5.428 8.83467 5.42933 8.5 16C8.51332 17.5504 8.97562 19.0638 9.83098 20.357C10.6863 21.6502 11.8981 22.6678 13.3197 23.2868C14.7413 23.9057 16.3117 24.0995 17.8411 23.8446C19.3705 23.5898 20.7933 22.8972 21.9373 21.8507C22.7315 22.7807 23.791 23.4459 24.9738 23.757C26.1565 24.0682 27.4062 24.0104 28.5552 23.5915C29.7042 23.1727 30.6978 22.4126 31.4029 21.4133C32.1079 20.4139 32.4907 19.223 32.5 18V16C32.4954 11.7579 30.8082 7.69095 27.8086 4.69136C24.8091 1.69177 20.7421 0.00458811 16.5 0ZM16.5 20C15.4391 20 14.4217 19.5786 13.6716 18.8284C12.9214 18.0783 12.5 17.0609 12.5 16C12.5 14.9391 12.9214 13.9217 13.6716 13.1716C14.4217 12.4214 15.4391 12 16.5 12C17.5609 12 18.5783 12.4214 19.3284 13.1716C20.0786 13.9217 20.5 14.9391 20.5 16C20.5 17.0609 20.0786 18.0783 19.3284 18.8284C18.5783 19.5786 17.5609 20 16.5 20Z" fill="#1E1E1E"/>
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_68_940">
+                                    <rect width="32" height="32" fill="white" transform="translate(0.5)"/>
+                                  </clipPath>
+                                </defs>
+                            </svg>
+                            axaxadev@gmail.com
+                        </a></li>
+                        <li><a href="https://t.me/AxaxaDev" target="_blank" class="blinks button1">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve" width="32" height="32">
+                                <g id="Artboard">
+                                    <path style="fill-rule:evenodd;clip-rule:evenodd;" fill="#1E1E1E" d="M12,0C5.373,0,0,5.373,0,12s5.373,12,12,12s12-5.373,12-12S18.627,0,12,0z    M17.562,8.161c-0.18,1.897-0.962,6.502-1.359,8.627c-0.168,0.9-0.5,1.201-0.82,1.23c-0.697,0.064-1.226-0.461-1.901-0.903   c-1.056-0.692-1.653-1.123-2.678-1.799c-1.185-0.781-0.417-1.21,0.258-1.911c0.177-0.184,3.247-2.977,3.307-3.23   c0.007-0.032,0.015-0.15-0.056-0.212s-0.174-0.041-0.248-0.024c-0.106,0.024-1.793,1.139-5.062,3.345   c-0.479,0.329-0.913,0.489-1.302,0.481c-0.428-0.009-1.252-0.242-1.865-0.442c-0.751-0.244-1.349-0.374-1.297-0.788   c0.027-0.216,0.324-0.437,0.892-0.663c3.498-1.524,5.831-2.529,6.998-3.015c3.333-1.386,4.025-1.627,4.477-1.635   C17.472,7.214,17.608,7.681,17.562,8.161z"/>
+                                </g>
+                            </svg>
+                            @AxaxaDev
+                        </a></li>
+                        <li><a href="https://vk.com/AxaxaDev" target="_blank" class="blinks button1">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve" width="32" height="32">
+                                <g>
+                                    <path fill="#1E1E1E" d="M22.316,1.684C20.632,0,17.921,0,12.5,0h-1C6.079,0,3.368,0,1.684,1.684C0,3.368,0,6.079,0,11.5v1   c0,5.421,0,8.131,1.684,9.816S6.079,24,11.5,24h1c5.421,0,8.131,0,9.816-1.684C24,20.632,24,17.921,24,12.5v-1   C24,6.079,24,3.368,22.316,1.684z M19.503,17h-1.75c-0.667,0-0.863-0.532-2.05-1.719c-1.039-1.001-1.484-1.131-1.743-1.131   c-0.353,0-0.458,0.1-0.458,0.6v1.569c0,0.43-0.137,0.681-1.25,0.681c-1.854,0-3.892-1.126-5.339-3.202   c-2.17-3.041-2.763-5.34-2.763-5.803c0-0.26,0.1-0.495,0.6-0.495h1.751c0.447,0,0.615,0.196,0.783,0.68   c0.856,2.493,2.3,4.672,2.893,4.672c0.222,0,0.324-0.103,0.324-0.667V9.608c-0.065-1.186-0.696-1.284-0.696-1.706   c0-0.195,0.167-0.402,0.445-0.402h2.751c0.371,0,0.5,0.198,0.5,0.643v3.467c0,0.37,0.161,0.5,0.272,0.5   c0.223,0,0.408-0.13,0.816-0.538c1.261-1.409,2.151-3.578,2.151-3.578c0.112-0.26,0.316-0.495,0.762-0.495h1.75   c0.529,0,0.641,0.272,0.529,0.643c-0.223,1.02-2.355,4.023-2.355,4.023c-0.186,0.297-0.26,0.445,0,0.779   c0.186,0.26,0.797,0.779,1.205,1.261c0.752,0.846,1.319,1.559,1.477,2.051C20.254,16.75,20.003,17,19.503,17z"/>
+                                </g>
+                            </svg>
+                            @AxaxaDev
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="review_popup">
+        <div class="review_popup_content">
+            <h1 class="h1">Оставьте отзыв</h1>
+            <form>
+                <input type="text" class="text-input p" placeholder="Имя" name="review-name">
+                <textarea class="multiline-input p" placeholder="Отзыв" id="review-textarea" name="review-text"></textarea>
+            </form>
+            <div>
+                <a class="blinks button1" name="review-button">Оставить</a>
+                <a class="blinks button2" onclick="Hide()">Отмена</a>
+            </div>
+        </div>  
+    </div>
+    <footer>
+        <div class="f_content">
+            <ul class="f_links">
+                <li id="about2"><a href="#about_anchor" class="blinks link1">Обо мне</a></li>
+                <li id="projects2"><a href="#projects_anchor" class="blinks link1">Мои работы</a></li>
+                <li id="reviews2"><a href="#reviews_anchor" class="blinks link1">Отзывы</a></li>
+            </ul>
+            <div class="f_contacts">
+                <ul class="f_contacts1">
+                    <li><a href="mailto:axaxadev@gmail.com" target="_blank" class="blinks button2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="33" height="32" viewBox="0 0 33 32" fill="none">
+                            <g clip-path="url(#clip0_68_940)">
+                              <path d="M16.5 0C12.2579 0.00458811 8.19095 1.69177 5.19136 4.69136C2.19177 7.69095 0.504588 11.7579 0.5 16C0.333333 28.7653 15.3787 36.572 25.7 29.0893C25.9163 28.9388 26.1007 28.747 26.2427 28.5249C26.3846 28.3028 26.4813 28.0549 26.5271 27.7953C26.5729 27.5358 26.5669 27.2698 26.5096 27.0125C26.4522 26.7553 26.3446 26.5119 26.1928 26.2964C26.0411 26.0809 25.8483 25.8975 25.6255 25.7568C25.4027 25.6161 25.1542 25.5208 24.8944 25.4764C24.6346 25.432 24.3686 25.4394 24.1117 25.4981C23.8548 25.5568 23.612 25.6658 23.3973 25.8187C15.7267 31.4427 4.31733 25.528 4.5 16C5.12933 0.0933329 27.872 0.0959994 28.5 16V18C28.5 18.5304 28.2893 19.0391 27.9142 19.4142C27.5391 19.7893 27.0304 20 26.5 20C25.9696 20 25.4609 19.7893 25.0858 19.4142C24.7107 19.0391 24.5 18.5304 24.5 18V16C24.164 5.428 8.83467 5.42933 8.5 16C8.51332 17.5504 8.97562 19.0638 9.83098 20.357C10.6863 21.6502 11.8981 22.6678 13.3197 23.2868C14.7413 23.9057 16.3117 24.0995 17.8411 23.8446C19.3705 23.5898 20.7933 22.8972 21.9373 21.8507C22.7315 22.7807 23.791 23.4459 24.9738 23.757C26.1565 24.0682 27.4062 24.0104 28.5552 23.5915C29.7042 23.1727 30.6978 22.4126 31.4029 21.4133C32.1079 20.4139 32.4907 19.223 32.5 18V16C32.4954 11.7579 30.8082 7.69095 27.8086 4.69136C24.8091 1.69177 20.7421 0.00458811 16.5 0ZM16.5 20C15.4391 20 14.4217 19.5786 13.6716 18.8284C12.9214 18.0783 12.5 17.0609 12.5 16C12.5 14.9391 12.9214 13.9217 13.6716 13.1716C14.4217 12.4214 15.4391 12 16.5 12C17.5609 12 18.5783 12.4214 19.3284 13.1716C20.0786 13.9217 20.5 14.9391 20.5 16C20.5 17.0609 20.0786 18.0783 19.3284 18.8284C18.5783 19.5786 17.5609 20 16.5 20Z" fill="#E5D045"/>
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_68_940">
+                                <rect width="32" height="32" fill="white" transform="translate(0.5)"/>
+                              </clipPath>
+                            </defs>
+                        </svg>
+                        axaxadev@gmail.com
+                    </a></li>
+                </ul>
+                <ul class="f_contacts2">
+                    <li><a href="https://t.me/AxaxaDev" target="_blank" class="blinks button2">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve" width="32" height="32">
+                            <g id="Artboard">
+                                <path style="fill-rule:evenodd;clip-rule:evenodd;" fill="#E5D045" d="M12,0C5.373,0,0,5.373,0,12s5.373,12,12,12s12-5.373,12-12S18.627,0,12,0z    M17.562,8.161c-0.18,1.897-0.962,6.502-1.359,8.627c-0.168,0.9-0.5,1.201-0.82,1.23c-0.697,0.064-1.226-0.461-1.901-0.903   c-1.056-0.692-1.653-1.123-2.678-1.799c-1.185-0.781-0.417-1.21,0.258-1.911c0.177-0.184,3.247-2.977,3.307-3.23   c0.007-0.032,0.015-0.15-0.056-0.212s-0.174-0.041-0.248-0.024c-0.106,0.024-1.793,1.139-5.062,3.345   c-0.479,0.329-0.913,0.489-1.302,0.481c-0.428-0.009-1.252-0.242-1.865-0.442c-0.751-0.244-1.349-0.374-1.297-0.788   c0.027-0.216,0.324-0.437,0.892-0.663c3.498-1.524,5.831-2.529,6.998-3.015c3.333-1.386,4.025-1.627,4.477-1.635   C17.472,7.214,17.608,7.681,17.562,8.161z"/>
+                            </g>
+                        </svg>
+                        @AxaxaDev
+                    </a></li>
+                    <li><a href="https://vk.com/AxaxaDev" target="_blank" class="blinks button2">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve" width="32" height="32">
+                            <g>
+                                <path fill="#E5D045" d="M22.316,1.684C20.632,0,17.921,0,12.5,0h-1C6.079,0,3.368,0,1.684,1.684C0,3.368,0,6.079,0,11.5v1   c0,5.421,0,8.131,1.684,9.816S6.079,24,11.5,24h1c5.421,0,8.131,0,9.816-1.684C24,20.632,24,17.921,24,12.5v-1   C24,6.079,24,3.368,22.316,1.684z M19.503,17h-1.75c-0.667,0-0.863-0.532-2.05-1.719c-1.039-1.001-1.484-1.131-1.743-1.131   c-0.353,0-0.458,0.1-0.458,0.6v1.569c0,0.43-0.137,0.681-1.25,0.681c-1.854,0-3.892-1.126-5.339-3.202   c-2.17-3.041-2.763-5.34-2.763-5.803c0-0.26,0.1-0.495,0.6-0.495h1.751c0.447,0,0.615,0.196,0.783,0.68   c0.856,2.493,2.3,4.672,2.893,4.672c0.222,0,0.324-0.103,0.324-0.667V9.608c-0.065-1.186-0.696-1.284-0.696-1.706   c0-0.195,0.167-0.402,0.445-0.402h2.751c0.371,0,0.5,0.198,0.5,0.643v3.467c0,0.37,0.161,0.5,0.272,0.5   c0.223,0,0.408-0.13,0.816-0.538c1.261-1.409,2.151-3.578,2.151-3.578c0.112-0.26,0.316-0.495,0.762-0.495h1.75   c0.529,0,0.641,0.272,0.529,0.643c-0.223,1.02-2.355,4.023-2.355,4.023c-0.186,0.297-0.26,0.445,0,0.779   c0.186,0.26,0.797,0.779,1.205,1.261c0.752,0.846,1.319,1.559,1.477,2.051C20.254,16.75,20.003,17,19.503,17z"/>
+                            </g>
+                        </svg>
+                        @AxaxaDev
+                    </a></li>
+                </ul>
+            </div>
+            <div class="copyright">
+                <div class="h_logo">
+                    <a href="/">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="63" viewBox="0 0 50 63" fill="none" id="h_logo">
+                        <path d="M0 22C0 19.2386 2.23857 17 5 17L45 17C47.7614 17 50 19.2386 50 22V37.3267C50 42.1847 48.9524 46.4673 46.8571 50.1747C44.8095 53.8821 41.9286 56.7798 38.2143 58.8679C34.5 60.956 30.0952 62 25 62C19.9524 62 15.5476 60.956 11.7857 58.8679C8.07143 56.7798 5.16667 53.8821 3.07143 50.1747C1.02381 46.4673 0 42.1847 0 37.3267V22ZM14.5 27.3551C11.7386 27.3551 9.5 29.5937 9.5 32.3551V36.8153C9.5 39.7983 10.1191 42.3764 11.3571 44.5497C12.6429 46.7656 14.4524 48.4702 16.7857 49.6634C19.119 50.8992 21.8571 51.517 25 51.517C28.1905 51.517 30.9286 50.8992 33.2143 49.6634C35.5476 48.4702 37.3333 46.7656 38.5714 44.5497C39.8571 42.3764 40.5 39.7983 40.5 36.8153V32.3551C40.5 29.5937 38.2614 27.3551 35.5 27.3551H14.5Z" fill="#E0E0E0"/>
+                        <path d="M19 6C19 2.68629 16.3137 0 13 0C9.68629 0 7 2.68629 7 6C7 9.31371 9.68629 12 13 12C16.3137 12 19 9.31371 19 6Z" fill="#E0E0E0"/>
+                        <path d="M43 6C43 2.68629 40.3137 0 37 0C33.6863 0 31 2.68629 31 6C31 9.31371 33.6863 12 37 12C40.3137 12 43 9.31371 43 6Z" fill="#E0E0E0"/>
+                        </svg>
+                    </a>
+                </div>
+                <p>©AxaxaDev 2023 <br>
+                    Все права защищены</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11.0.5/swiper-bundle.min.js"></script>
+    <script src="scripts/burger.js"></script>
+    <script src="scripts/slider.js"></script>
+    <script src="scripts/popup.js"></script>
+</div>
+</body>
+</html>

@@ -1,0 +1,190 @@
+@media only screen and (min-width: 1180px) {
+  .h_content {
+    width: 1180px; }
+
+  .links {
+    gap: 150px; }
+
+  .main {
+    width: 1180px; }
+
+  .f_content {
+    width: 1180px; }
+
+  .description {
+    gap: 30px; }
+
+  .swiper-projects {
+    width: 1180px; }
+
+  .swiper-reviews {
+    width: 1180px; } }
+@media only screen and (min-width: 824px) and (max-width: 1179px) {
+  .h_content {
+    width: 824px; }
+
+  .links {
+    gap: 50px; }
+
+  .main {
+    width: 824px; }
+
+  .f_content {
+    width: 824px; }
+
+  .description {
+    gap: 15px; }
+
+  #description_photo {
+    width: 249px;
+    height: 356px; }
+
+  .project {
+    width: 391px;
+    height: 305.47px; }
+
+  .swiper-projects {
+    height: 380.47px;
+    width: 824px; }
+
+  .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    top: 360.47px; }
+
+  .swiper-reviews {
+    width: 824px; } }
+@media only screen and (min-width: 668px) and (max-width: 823px) {
+  .h_content {
+    width: 668px; }
+
+  .main {
+    width: 668px; }
+
+  .f_content {
+    width: 668px; }
+
+  .f_contacts2 {
+    flex-direction: column; }
+
+  #about, #projects, #reviews {
+    display: none; }
+
+  .burger {
+    display: flex; }
+
+  .description {
+    gap: 10px; }
+
+  #description_photo {
+    width: 249px;
+    height: 356px; }
+
+  .project {
+    width: 662px;
+    height: 517.19px; }
+
+  .swiper-projects {
+    height: 592.19px;
+    width: 668px; }
+
+  .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    top: 572.19px; }
+
+  .forms {
+    flex-wrap: wrap; }
+
+  .swiper-reviews {
+    width: 668px; }
+
+  .review {
+    max-width: 320px; } }
+@media only screen and (min-width: 310px) and (max-width: 667px) {
+  .h_content {
+    width: 310px; }
+
+  .main {
+    width: 310px; }
+
+  .f_content {
+    flex-direction: column;
+    width: 310px;
+    gap: 50px; }
+
+  .f_contacts1 a {
+    padding: 10px; }
+
+  .f_contacts2 {
+    flex-direction: column; }
+
+  #about, #projects, #reviews {
+    display: none; }
+
+  .burger {
+    display: flex; }
+
+  .description {
+    gap: 30px;
+    flex-direction: column; }
+
+  #description_photo {
+    width: 249px;
+    height: 356px; }
+
+  .project {
+    width: 304px;
+    height: 237.5px; }
+
+  .swiper-projects {
+    height: 312.5px;
+    width: 310px; }
+
+  .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    top: 292.5px; }
+
+  .forms {
+    flex-direction: column;
+    gap: 50px; }
+
+  .yours form input {
+    width: 310px; }
+
+  .yours, .contacts {
+    align-items: center;
+    width: 310px; }
+
+  .ours a:nth-child(1) {
+    padding: 10px; }
+
+  .swiper-reviews {
+    width: 310px; }
+
+  .review {
+    max-width: 300px;
+    padding: 15px 5px; }
+
+  .grade_empty {
+    max-width: 290px; }
+
+  .review p {
+    max-width: 290px; }
+
+  .review_popup_content {
+    padding: 30px 5px;
+    margin-left: -10px; }
+
+  .review_popup_content form {
+    min-width: 310px; }
+
+  .review_popup_content div {
+    flex-direction: column;
+    gap: 30px; } }
+
+/*# sourceMappingURL=adaptive.css.map */
